@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".halaman3"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ccccff">
+
+
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:src="@drawable/persegi"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20pt"
+        android:text="Persegi"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/inputSisi"
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:hint="Sisi"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/tombolhitungp"
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:text="Hitung luas"
+        android:backgroundTint="#bcc3f0"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tampilhasilp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="di sini tampil hasil"
+        android:textSize="15pt"/>
+
+</LinearLayout>
